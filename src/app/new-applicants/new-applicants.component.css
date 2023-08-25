@@ -1,0 +1,42 @@
+p.solid {border-style: solid;}
+
+.table table-striped{
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+/* width: 50%; */
+height: 50%;
+}
+#style1 td, #style1 th {
+border: 1px solid #ddd;
+padding: 8px;
+font-size:small;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 1000;
+
+}
+
+#style1 tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+
+#style1 tr:hover {background-color: #ddd;}
+
+
+
+
+#style1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+     background-color: white;
+     color: black;
+     font-size:larger;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 1000;
+
+}
+.new-applicants-wrapper {
+ /* width: 50vw; */
+    
+}

@@ -1,0 +1,16 @@
+.mat-stepper-horizontal {
+    margin-top: 8px;
+  }
+  
+  .mat-mdc-form-field {
+    margin-top: 16px;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(182, 173, 173) ;
+    color: white;
+    text-align: center;
+ }

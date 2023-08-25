@@ -1,0 +1,31 @@
+[  
+  {  
+    "id": "DC03",  
+    "name": "Jhon",  
+    "prdtype": "Life Protect",  
+    "date":"12-03-2024",
+    "status":"UW"  
+  },
+  {  
+    "id": "DC04",  
+    "name": "Jack",  
+    "prdtype": "Life Protect",  
+    "date":"12-03-2024",
+    "status":"UW"  
+  },
+  {  
+    "id": "DC05",  
+    "name": "jhonson",  
+    "prdtype": "Life Protect",  
+    "date":"12-03-2024",
+    "status":"UW"  
+  },
+  {  
+    "id": "DC06",  
+    "name": "Jupiter",  
+    "prdtype": "Life Protect",  
+    "date":"12-03-2024",
+    "status":"UW"  
+  }
+
+ ]

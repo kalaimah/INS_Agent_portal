@@ -1,0 +1,26 @@
+
+.col{
+    margin-left: 200px;
+}
+button{
+    margin-right: 70px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: rgb(2, 2, 91);
+    background-color: aliceblue;
+    font-weight: bold;
+    color: rgb(2, 2, 91);
+}
+.table{
+    margin-left: 200px;
+    width: 850px;
+}
+thead{
+    background-color: rgb(236, 243, 248);
+    color: rgb(145, 154, 154);
+}
+tbody{
+    color: rgb(145, 154, 154);
+}
+

@@ -1,0 +1,39 @@
+<div class="card">
+    <div id="heading" style="font-weight: bold; margin-top: 5px; margin-left: 5px;">
+        Today's Schedule
+        <div class="d-flex justify-content-end float-end">
+            <input type="date" name="date" id="date" />
+        </div>
+
+        <div class="card-body">
+            <div class="row flex-nowrap overflow-hidden">
+                <div class="col-md-4" *ngFor="let date of dates">
+                    <div class="card p-0" style="width: 100%">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ date | date : "EEE, dd" }}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div>
+<!--<i class="fa-light fa-users     "  ></i>-->
+    <div class="scheduledCalls" style="display:flex; justify-content:  space-between;">
+    <i class="fa-solid fa-users"style="color: #00BFFF; font-size: 20px;"></i><a style="font-weight: 50; font-style: normal;margin-left: 0; "> Meeting with Ron Harris </a>
+    <div class="callImgs">
+    <img src="/assets/phone.jpg" width="30" height="30" style="margin-left: 80px;margin-right: 10px;">
+    <img src="/assets/video.png" width="30" height="30" style="margin-left: 10px;margin-right: 10px;">
+</div>
+</div>
+<br>
+<div class="scheduledCalls" style="display:flex; justify-content:  space-between;">
+    <i class="fa-solid fa-users"style="color: #00BFFF; font-size: 20px;"></i><a style="font-weight: 50; font-style: normal;margin-left: 0; "> Meeting with Harry Dar </a>
+    <div class="callImgs">
+    <img src="/assets/phone.jpg" width="30" height="30" style="margin-left: 80px;margin-right: 10px;">
+    <img src="/assets/video.png" width="30" height="30" style="margin-left: 10px;margin-right: 10px;">
+</div>
+</div>
+<br>
+    </div>
+    </div>
+    </div>

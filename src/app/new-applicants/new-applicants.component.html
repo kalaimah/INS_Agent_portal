@@ -1,0 +1,37 @@
+<div class="card"style="border: none; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15)">
+  <div class="wrapper m-3">
+  <h5  style="font-weight: bold;font-size: medium;" > New Applicants</h5>
+  <div class="float-end" style="margin-top: 1px;">
+    <div (click)="redirect()" class="d-inline-flex pe-2">VIEW All</div>
+    <select class="border border-secondary">
+      <option value="All policies" selected>All policies</option>
+      <option value="volvo">Life Insurance</option>
+      <option value="saab">Bike insurance</option>
+    </select>
+    </div> 
+    <table  class="table table-striped table-bordered mt-3">
+      <thead>  
+        <tr>  
+          <th>#</th>  
+          <th>Policy Owner</th>  
+          <th>Product Type</th>  
+          <th>Date</th>
+          <th>Status</th>  
+        </tr>  
+      </thead>  
+      <tbody>  
+      <tr *ngFor="let data of datas">  
+        <td>{{ data.id }}</td>  
+        <td>{{ data.name }}</td>  
+        <td>{{ data.prdtype }}</td>  
+        <td>{{data.date}}</td>
+        <td>{{ data.status}}</td>  
+      </tr>  
+      </tbody>  
+      </table>  
+</div>
+</div>
+
+
+
+

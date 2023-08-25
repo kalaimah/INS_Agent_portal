@@ -1,0 +1,33 @@
+.card {
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 70%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card-title{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(73, 70, 70);
+    font-weight: bold;
+  }
+  label span {
+    margin-left: 20px;
+    color: rgb(73, 70, 70);
+    font-weight: bold;
+  }
+  button{
+    margin-left: 250px;
+    background-color: rgb(29, 182, 243);
+    color: #ffffff;
+    font-weight: bold;
+    border-style:hidden;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+  }
+ 
+

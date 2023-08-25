@@ -1,0 +1,116 @@
+.container-c {
+    margin: 0;
+    padding:0;
+    width: 100%;
+    color: white;
+    height: 250px;
+    background-image:url("/assets/fam.webp");
+  
+  }
+  
+  .has-search .form-control {
+    padding-left: 2.375rem;
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 50px;
+    
+}
+/* .search{
+    position: absolute;
+    top: 165px;
+    left: 90px;
+    border-radius: 20%;
+} */
+.bton{
+   
+    
+    margin-left: 110px;
+    width:22vw;
+    border-radius: 20px;
+    
+    /* width:10vw; */
+}
+
+
+
+  .top-left {
+    /* position: absolute; */
+    top: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    margin-left: 100px;
+    /* margin-left: 90px; margin-left: 50px; */
+  }
+  .top-left-down {
+    /* position: absolute; */
+    top: 115px;
+    left: 90px;
+    font-weight:500;
+    font-size: 12px;
+    margin-left: 100px;
+    color: azure;
+    /* margin-left: 90px; margin-left: 50px; */
+  }
+  .top-left-search {
+    /* position: absolute; */
+    top: 155px;
+    left: 90px;
+    font-weight:500;
+    font-size: 10px;
+    color: azure;
+    width: max-content;
+    /* margin-left: 90px; margin-left: 50px; */
+  }
+  
+ 
+
+  input{
+    /* border-radius: 20px; */
+    width: 70%;
+    height: 30px;
+    margin:0;
+    
+    border-radius: 20px;
+
+  }
+
+  .searcher{
+    height: 40px;
+    width:20vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: white !important;
+    margin-right: 3vw;
+    margin-left: 100px;
+    align-items: center;
+  }
+
+  .searchField{
+    margin:0;
+    width:10vw;
+    border: none;
+  }
+
+  .con{
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .es{
+    background-color:#87CEEB;
+  }
+
+.healthplan1{
+  margin-left: 100px;
+  margin-top: 40px;
+  font-size: medium;
+  font-weight: bold;
+}
+.healthplan2{
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: small;
+  font-weight: 400px;
+}
+

@@ -1,0 +1,380 @@
+.mat-stepper-horizontal {
+  margin-top: -40px;
+}
+
+.mat-mdc-form-field {
+  margin-top: 16px;
+}
+
+.mat-mdc-progress-bar {
+  display: block;
+  width: 89%;
+  margin-left: 96px;
+}
+
+.mat-stepper-horizontal-line {
+  border-bottom: none;
+}
+
+#icon{
+  float:right;
+  margin-left: -5px;
+  margin-right: 36px;
+  font-size: 33px;
+  margin-top: 3px;
+}
+
+.wicon{
+  margin-right: 19px;
+  color: white;
+  border-radius: 50%;
+  background-color: #47de5c;
+  float: right;
+  margin-top: -17px;
+  margin-left: -18px;
+  font-size: 33px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+::ng-deep .mat-stepper-label-position-bottom .mat-horizontal-stepper-header-container {
+  align-items: flex-start;
+  background-color:#dfebfe;
+}
+
+input:focus {
+  border: 3px solid #2b9fd5;
+  outline: none;
+}
+
+.flabel{
+  font-weight: bold;
+  margin-top: 27px;
+}
+
+.finput{
+  border-radius: 10px;
+  width: 330px;
+  height: 42px;
+  display: inline-block;
+  margin-right: 97px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+
+#phone{
+  border-radius: 10px;
+  width: 330px;
+  height: 42px;
+  display: inline-block;
+  margin-right: 58px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.phone{
+  display: inline-block
+}
+
+.plabel{
+  font-weight: bold;
+  display: block
+}
+
+#email{
+  border-radius: 10px;
+  width: 330px;
+  height: 42px;
+  display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.email{
+  display: inline-block;
+  margin-left: 40px
+}
+
+.elabel{
+  font-weight: bold;
+  display: block;
+}
+
+#dob{
+  border-radius: 10px;
+  width: 330px;
+  height: 42px;
+  display: inline-block;
+  margin-right: 61px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.dob{
+  display: inline-block
+}
+
+.doblabel{
+  font-weight: bold;
+  display: block
+}
+
+.pincode{
+  display: inline-block;
+  margin-left: 40px
+}
+
+.pinlabel{
+  font-weight: bold;
+  display: block
+}
+
+
+gender{
+  display: inline-block;
+}
+
+.genlabel{
+  font-weight: bold;
+  margin-bottom: 10px
+}
+
+#male{
+  border-radius: 10px;
+  border-color: #1360ae;
+  display: inline-block;
+  margin-left: 7px;
+}
+
+#female{
+  margin-left: 100px;
+}
+
+#transgender{
+  margin-left: 100px;
+}
+
+.vgenlabel{
+  margin-left: 15px
+}
+
+/* do u smoke */
+.smoke{
+  overflow: hidden
+}
+
+.smokeh{
+  float: left;
+}
+
+.smklabel{
+  margin-bottom: 10px;
+  font-weight: bold
+}
+
+/* smoke btn yes/no */
+.btn{
+  border-radius: 11px;
+  border:1px solid black;
+  font-weight: bold;
+}
+
+/* u drink alcohol */
+.alcohol{
+  display: inline-block;
+  float: left;
+  margin-left: 318px
+}
+
+
+.alclabel{
+  margin-bottom: 10px;
+  margin-left: 12px;
+  font-weight: bold
+}
+
+/* alcohol btn yes/no */
+.btnY{
+  border-radius: 11px;
+  border:1px solid black;
+  font-weight: bold;
+  width: 54px;
+  height: 37px;
+  margin-left: 12px;
+}
+.btnN{
+  border-radius: 11px;
+  border:1px solid black;
+  font-weight: bold;
+  width: 54px;
+  height: 37px;
+}
+
+
+/* address */
+
+.add{
+  overflow: hidden
+}
+
+.addH{
+  display: inline-block;
+  float: left
+}
+
+.addlabel{
+  font-weight: bold;
+  margin-bottom: 10px
+}
+
+.addArea{
+  height: 161px;
+  width: 74%;
+  border-radius: 10px;
+  font-weight: bold;
+  resize: vertical;
+  max-width: 100%;
+}
+
+#dateob{
+  border-radius: 10px;
+  width: 330px;
+  height: 42px;
+  display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.dolabel{
+  font-weight: bold;
+}
+
+#add{
+  float:right;
+  margin-top: -116px;
+  margin-right: 45px;
+  padding: 8px;
+  border-radius: 20px;
+  width: 90px;
+  background-color: white;
+  font-weight: bold;
+}
+/* Add dependents */
+
+.other{
+  display: inline-block;
+  margin-left: -352px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.img{
+  height: 65px;
+  width: 79px;
+}
+
+.cardbody{
+  padding-block: 17px;
+  padding-left: 8px;
+}
+
+#otherc{
+  width: 54%;
+  margin-left: -368px;
+  margin-bottom: 0px;
+}
+
+#childc{
+  width: 54%;
+  margin-left: -276px;
+  margin-bottom: 0px;
+}
+
+.childb{
+  padding-block: 17px;
+  padding-left: 8px;
+}
+
+.child{
+  display: inline-block;
+  margin-left: -249px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+#fbtn{
+  width: 114%;
+  margin-left: -74px;
+}
+
+/* Income Form */
+
+#date{
+  border-radius: 10px;
+  width: 330px;
+  height: 42px;
+  border-color: #1360ae;
+  display: inline-block;
+  /* margin-right: 97px; */
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+#governmentRebate{
+  border-radius: 10px;
+  width: 330px;
+  height: 42px;
+  border-color: #1360ae;
+  display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+#taxRebate{
+  border-radius: 10px;
+  width: 330px;
+  height: 42px;
+  border-color: #1360ae;
+  display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+
+.icon4 {
+  background: #46dd7b;
+  padding: 20px;
+  padding-right: 9px;
+  padding-left: 10px;
+  border-radius: 54%;
+  margin-left: -7px;
+}
+
+.icons44 {
+  background: #66cdcc;
+  padding: 9px;
+  padding-right: 17px;
+  padding-left: 11px;
+  border-radius: 58%;
+  margin-left: 32px;
+  margin-right: -3px;
+  float: right;
+}
+
+/* documents */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
